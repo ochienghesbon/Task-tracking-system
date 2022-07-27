@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "text": "walking",
+      "day": "may 23rd september",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "walking",
+      "day": "march 24th sep 2022",
+      "reminder": false,
+      "id": 2
+    }
+  ]
+}
