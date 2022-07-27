@@ -6,7 +6,6 @@
       "reminder": true,
       "id": 1
     },
-    
     {
       "text": "shoppin",
       "day": "20th wednesday 2022",
@@ -18,6 +17,12 @@
       "day": "14th tuesday 2022",
       "reminder": true,
       "id": 4
+    },
+    {
+      "text": "coding",
+      "day": "23rd sep",
+      "reminder": true,
+      "id": 5
     }
   ]
 }
