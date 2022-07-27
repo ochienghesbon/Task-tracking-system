@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Route, } from 'react-router-dom'
 
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-
+import About from './Components/About';
+import Tasks from './Components/Tasks/Tasks';
+import AddTasks from './Components/Tasks/AddTask';
 
 function App() {
 
