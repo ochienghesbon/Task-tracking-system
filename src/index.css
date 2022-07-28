@@ -21,7 +21,7 @@ body {
   border-radius: 50px;
   display: flex;
   flex-direction: column;
-  background: blueviolet;
+  background: rgb(43, 226, 226);
 
 }
 
@@ -63,7 +63,7 @@ body {
   width: 100%;
   overflow: auto;
   max-height: calc(100% - 500px);
-  scrollbar-color: red;
+  scrollbar-color: rgb(47, 0, 255);
 }
 
 .tasks-container::-webkit-scrollbar {

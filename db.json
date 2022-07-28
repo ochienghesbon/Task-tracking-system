@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "text": "shoppin",
-      "day": "20th wednesday 2022",
-      "reminder": false,
-      "id": 3
-    },
-    {
       "text": "travelling",
       "day": "14th tuesday 2022",
       "reminder": true,
@@ -41,6 +35,12 @@
       "day": "22nd Nov 2022",
       "reminder": true,
       "id": 9
+    },
+    {
+      "text": "praying",
+      "day": "20th sat 2022",
+      "reminder": true,
+      "id": 10
     }
   ]
 }
