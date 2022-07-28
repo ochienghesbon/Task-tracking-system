@@ -84,7 +84,7 @@ function App() {
       reminder: !taskToToggle.reminder
     }
 
-    const res = await fetch(`http://localhost:8000/tasks/${id}`, {
+    const res = await fetch(`https://shine-island-canopy.glitch.me/tasks/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json"
