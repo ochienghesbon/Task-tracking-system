@@ -24,7 +24,7 @@ function App() {
 
   // Fetch all tasks
   const fetchTasks = async () => {
-    const res = await fetch('http://localhost:8000/tasks');
+    const res = await fetch('https://shine-island-canopy.glitch.me/tasks');
     const data = await res.json();
     return data;
   }
@@ -32,7 +32,7 @@ function App() {
 
   // Fetch one task
   const fetchTask = async (id) => {
-    const res = await fetch(`http://localhost:8000/tasks/${id}`);
+    const res = await fetch(`https://shine-island-canopy.glitch.me/tasks/${id}`);
     const data = await res.json();
     return data;
   }
@@ -41,7 +41,7 @@ function App() {
 
   // Add taks
   const addTask = async (task) => {
-    const res = await fetch(`http://localhost:8000/tasks`, {
+    const res = await fetch(`https://shine-island-canopy.glitch.me/tasks`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -60,7 +60,7 @@ function App() {
 
   // Delete Task ----> PROP DRILLING
   const delTask = async (id) => {
-    await fetch(`http://localhost:8000/tasks/${id}`, {
+    await fetch(`https://shine-island-canopy.glitch.me/tasks/${id}`, {
       method: "DELETE"
     });
 
