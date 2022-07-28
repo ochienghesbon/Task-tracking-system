@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "text": "walking",
-      "day": "may 23rd september",
-      "reminder": true,
-      "id": 1
-    },
-    {
       "text": "shoppin",
       "day": "20th wednesday 2022",
       "reminder": false,
@@ -23,6 +17,30 @@
       "day": "23rd sep",
       "reminder": true,
       "id": 5
+    },
+    {
+      "text": "learning",
+      "day": "15th oct 2022",
+      "reminder": true,
+      "id": 6
+    },
+    {
+      "text": "dancing",
+      "day": "10th january 2022",
+      "reminder": true,
+      "id": 7
+    },
+    {
+      "text": "freelancing",
+      "day": "4th june 2022",
+      "reminder": true,
+      "id": 8
+    },
+    {
+      "text": "watching",
+      "day": "22nd Nov 2022",
+      "reminder": true,
+      "id": 9
     }
   ]
 }
